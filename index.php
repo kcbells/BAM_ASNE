@@ -393,7 +393,7 @@
         </a>
         <ul id="tables-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
           <li>
-            <a href="tables-general.html">
+            <a href="index.php?page=general_table" class="active">
               <i class="bi bi-circle"></i><span>General Tables</span>
             </a>
           </li>
@@ -515,6 +515,8 @@
                               case "registration_form":
                               include"modules/registration_form.php";
                               break;
+                              case "general_table":
+                              include"modules/general_table.php";
                       }
                     }
 ?>
